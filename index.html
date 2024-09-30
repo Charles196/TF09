@@ -11,13 +11,16 @@
     <!-- Cabeçalho -->
     <header>
         <div class="container">
+            <img width=10% src="logo.png" alt="Logo do Site é uma Roposa">
             <h1>Portal de HTML & CSS</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="categorias.html">Categorias</a></li>
-                    <li><a href="busca.html">Busca</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="tutoriais.html">Tutoriais</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="codigo-fonte.html">Códigos Fonte</a></li>
+                    <li><a href="contato.html">Contato</a></li>                    
                 </ul>
             </nav>
         </div>
@@ -31,6 +34,12 @@
         </div>
     </section>
 
+    <section class="image">
+        <div class="container">
+            <img width=70% src="Codigo_html_2024.jpg" alt="Código HTML.">
+        </div>
+    </section>
+
     <!-- Destaques -->
     <section class="destaques">
         <div class="container">
@@ -39,12 +48,20 @@
                 <article>
                     <h3>Tutorial HTML Básico</h3>
                     <p>Aprenda o básico de HTML.</p>
-                    <a href="https://www.youtube.com/watch?v=r0CWl2EhR6Q&t=5s" target="_blank" class="button">Visitar</a>
+                    <a href="https://www.youtube.com/watch?v=r0CWl2EhR6Q&t=5s" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;"  class="button">Visitar</a>
                 </article>
                 <article>
                     <h3>Curso de CSS Completo</h3>
                     <p>Aprofunde seus conhecimentos em CSS.</p>
-                    <a href="https://youtu.be/HtVRRHoASes?si=OQbWiH46OPiOoByV" target="_blank" class="button">Visitar</a>
+                    <a href="https://youtu.be/HtVRRHoASes?si=OQbWiH46OPiOoByV" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <article>
+                    <h3>Curso Completo de HTML e CSS</h3>
+                    <p>Aprenda mais com o Prof. Gustavo Guanabara.</p>
+                    <a href="https://youtu.be/Ejkb_YpuHWs?si=UVMnbHZxgELiGjmP" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
                 </article>
                 <!-- Adicionar mais artigos conforme necessário -->
             </div>
@@ -59,19 +76,19 @@
                 <a href="tutoriais.html" class="category">Tutoriais</a>
                 <a href="cursos.html" class="category">Cursos</a>
                 <a href="projetos.html" class="category">Projetos</a>
-                <a href="codigo-fonte.html" class="category">Código Fonte</a>
+                <a href="codigo-fonte.html" class="category">Códigos Fonte</a>
             </div>
         </div>
     </section>
 
-    <!-- Busca -->
+    <!-- Busca Google -->
     <section class="busca">
         <div class="container">
             <h2>Busca</h2>
-            <form action="resultados.html" method="GET">
-                <input type="text" placeholder="Buscar arquivos..." name="query">
-                <button type="submit">Buscar</button>
-            </form>
+                <script async src="https://cse.google.com/cse.js?cx=1563539459293413c">
+                </script>
+            <div class="gcse-search"></div>
+
         </div>
     </section>
 
@@ -80,8 +97,10 @@
         <div class="container">
             <h2>Notícias e Artigos Relacionados</h2>
             <ul>
-                <li><a href="#">Artigo 1 - Novidades no CSS</a></li>
-                <li><a href="#">Artigo 2 - Como otimizar seu site</a></li>
+                <li><a href="https://developer.chrome.com/blog/new-in-web-ui-io-2024?hl=pt-br" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;">Artigo 1 - Novidades no CSS</a></li>
+                <li><a href="https://medium.com/totvsdevelopers/2023-um-ano-de-ouro-para-o-css-b31e70f9b2ef" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;">Artigo 2 - Como otimizar seu site</a></li>
                 <!-- Adicionar mais notícias conforme necessário -->
             </ul>
         </div>

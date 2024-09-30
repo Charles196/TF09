@@ -24,6 +24,7 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    text-align: center;
 }
 
 header h1 {
@@ -45,11 +46,26 @@ header nav ul li a {
     text-decoration: none;
 }
 
+h2 {
+    margin: 30px 0px 0px 0px;
+}
+
+h3 {
+    margin: 10px 0px 0px 0px;
+}
+
 /* Banner */
 .banner {
     background-color: #0073e6;
     color: white;
-    padding: 40px 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.image {
+    background-color: #0073e6;
+    color: white;
+    padding: 0px 40px 40px 40px;
     text-align: center;
 }
 
@@ -118,6 +134,23 @@ header nav ul li a {
 .noticias ul li a {
     color: #007bff;
     text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 /* Rodapé */
